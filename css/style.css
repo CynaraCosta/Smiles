@@ -30,7 +30,6 @@ h2{font-size: 1.5em;
    font-weight: 900;
 }
 
-
 .cabecalho{
     width: 100%;
     float:left;
@@ -40,8 +39,13 @@ h2{font-size: 1.5em;
     top:0;
 }
 
-.cabecalho p{
-    color:#FFFFFF;
+.cabecalho a{
+    color: #FFF;
+}
+
+.bruno a{
+    display: flex;
+    flex-direction: column;
 }
 
 .logo a{
@@ -87,6 +91,8 @@ h2{font-size: 1.5em;
     color:#FFFFFF;
     float: right;
     left: 1320px;
+    display: flex;
+    flex-direction: row;
 }
 
 .bold-700{
@@ -99,7 +105,8 @@ h2{font-size: 1.5em;
 
 #nomeperfil{
     float:inline-start;
-    font-size: 1.0em
+    font-size: 1.0em;
+    margin-bottom: 3px;
 }
 
 #nomesair{
@@ -109,9 +116,8 @@ h2{font-size: 1.5em;
 
 #btn-user{
     margin-top: 4px;
-    margin-left: 1145px;
     width: 25px;
-
+    margin-right: 5px;
 }
 
 #btn-user:hover{
