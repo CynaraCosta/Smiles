@@ -1,3 +1,4 @@
+/*
 #title-perfil{
     font-size: 1.6em;
     font-weight: 600;
@@ -66,3 +67,95 @@
     width: 700px;
 }
 
+*/
+
+main{
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 70px;
+}
+
+.inicio-perfil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+#milhas{
+    width: 100%;
+
+}
+
+.info{
+    width: 33%;
+    margin-left: 100px
+}
+
+.segundaparte{
+    width: 66%;
+    margin-top: 54px;
+    margin-left: 200px;
+}
+
+#nome-info{
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-perfil{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 80px;
+
+}
+
+#line-perfil{
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 200px;
+    border: 0;
+	border-top: 1px solid #A1A1A1;
+    width: 95%;
+}
+
+.text{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.text h5{
+    padding-top: 18px
+}
+
+.h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#edit-info{
+    margin-top: 20px;
+    margin-left: 360px
+}
+
+.grafico{
+    margin-top: 100px;
+}
+
+.second{
+    margin-top: 54px
+}
