@@ -125,3 +125,12 @@ h2{font-size: 1.5em;
      color: #FFFFFF}
 
 /*                                                                  GERAL                                                                  */
+
+#line-perfil{
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 200px;
+    border: 0;
+	border-top: 1px solid #A1A1A1;
+    width: 95%;
+}
