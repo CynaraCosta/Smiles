@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Smiles</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="./css/login.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" type='text/css'>-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,39 +12,39 @@
         <link rel="shortcut icon" href="etc/favicon.ico" />
 
     </head>
-    <body class="loginzinho">
-        <header >
-
-        </header> 
-
-        <h1 class="fotologin">
+<body>
     
-        </h1>
-
-        <main class="principal">
-            <section class="forms">
+    <div class='login_page'>
+        
+        <img class='banner_aviao' src="./img/banner-aviao.png" alt="banner com aviao">
+        
+        <div class='forms'>
             <h3 class='bold-700'> Acesse sua conta</h3>
-            <p> <br> </p>
-            <p> <br> </p>
             <form method="post">
-                <p class='bold-600'> E-mail, CPF ou Número Smiles </p>
-                <input type="text" placeholder="Insira aqui seu login">
-                <p> <br> </p>
-                <p class='bold-600'> Senha </p>
-                <input type="password" placeholder="Insira aqui sua senha">
-
-                <p> <br> </p>
-                <a id="esqueci" href="login.html" title="Login"><p> <u> Esqueci meu Número Smiles </u> </p> </a>
-                <p> <br> </p>
-
-            </form>     
+                
+                <div class='containers'>
+                    <div class='input-container'>
+                        <label class='bold-600'for='login'> E-mail, CPF ou Número Smiles </label>
+                        <input id='login' type="text" placeholder="Insira aqui seu login">
+                    </div>
+                    
+                    <div class='input-container'>
+                        <label class='bold-600' for='senha'> Senha </label>
+                        <input type="password" id='senha' placeholder="Insira aqui sua senha">
+                    </div>
+                </div>          
+                
+            </form> 
             
-            <form method="get" action="aviso.html">
+            <form id='botao' method="get" action="aviso.html">
                 <button type="submit">Continuar</button>
             </form>
-        </section>
-        </main>
+       
+            <a id="esqueci" href="login.html" title="Login"><p> <u> Esqueci meu Número Smiles </u> </p> </a>
+
+        </div>
+    </div>
 
 
-    </body>
+</body>
 </html>

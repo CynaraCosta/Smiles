@@ -1,71 +1,80 @@
-
-/*                                                                  LOGIN                                                                  */
-.loginzinho{
-    background-color: #F4F4F4;
-    font-family: 'Open Sans', sans-serif;
-
+.login_page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
-.fotologin{
-    width: 50%;
-    height: 210rem;
-    float:left;
-    background: url(../img/login.png) no-repeat;
-    background-size:60%;
 
-}
-
-.principal {
-    width: 170%; 
-    float: inline-end;
-    padding: 60px 8% 0% 50%;
-
-}
-
-#esqueci{
-    font-size: 0.8em;
-    color: #615F5F;
+.input-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 50px
 }
 
 .forms{
     width: 100%;
-    float:left;
-    padding: 50px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 
 }
+
+.forms input{
+    border: 1px solid black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 50px;
+}
+
 
 .forms h3{
-    font-size: 1.8em;
+    font-size: 1.8rem;
     color: #000000;
-}
-
-.forms form{
-    width: 100%;
-    float:left;
-    margin-top: 10px;
-}
-
-.forms form input{
-    width: 30%;
-    margin-right: 1%;
-    margin-top: 1%;
-    padding: 10px 12px;
-    border:1px solid #000000;
-    border-radius: 5px;
-    color: #000000 ;
-    background-color: initial;
-    float:inline-start;
+    margin-bottom: 80px;
 }
 
 .forms button{
     width: 227px;
     height: 50px;
-    background-color: #E0E0E0;
-    color:#A09C9C;
-    padding: 8px 10px;
+    background-color: #F57921;
+    color:#FFF;
     border-radius: 5px;
-    float:inline-start;
     cursor: pointer;
+    align-self: center;
+    transition: 0.2s;
 }
 
-/*                                                                  LOGIN                                                                  */
+.banner_aviao{
+    width: 35vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.containers{
+    margin-bottom: 100px;
+}
+
+form{
+    width: 400px;
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.forms button:hover{
+    box-shadow: 2px 2px 2px #615F5F;
+}
