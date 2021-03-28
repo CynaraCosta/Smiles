@@ -15,6 +15,9 @@ body{
     outline: none;
 
 }
+p{
+    color:#010101;
+}
 img{max-width: 100%;
 }
 ul{list-style: none;
@@ -25,17 +28,17 @@ h2{font-size: 1.5em;
    color:#010101;
    font-weight: 900;
 }
-p{
-    font-size:1em;
-    color:#010101;
-    font-weight: bolder;
-}
+
 
 .cabecalho{
     width: 100%;
     float:left;
-    padding: 32px 5%;
+    padding: 14px 5%;
     background-color:#F57921;
+}
+
+.cabecalho p{
+    color:#FFFFFF;
 }
 
 .logo a{
@@ -50,5 +53,64 @@ p{
     left: 150px;
 
 }
+
+.opcoes{
+    color:#FFFFFF;
+    float: right;
+}
+
+.opcoes a{
+    color:#FFFFFF;
+    float: left;
+    margin-left: 12px;
+}
+
+#conhecadestinos{
+    position: fixed;
+    top:22px;
+    left: 600px;
+    font-size: 0.9em;
+}
+
+#planejamentos{
+    position: fixed;
+    top:22px;
+    left: 940px;
+    font-size: 0.9em;
+}
+
+.paraperfil{
+    margin-right: 105px;
+    color:#FFFFFF;
+    float: right;
+    left: 1320px;
+}
+
+
+
+#nomeperfil{
+    float:inline-start;
+    font-size: 1.0em
+}
+
+#nomesair{
+    float:inline-start;
+    font-size: 0.7em
+}
+
+#btn-user{
+    width: 120px;
+    height: 120px;
+    float:left;
+    background: url(../img/user.png) no-repeat;
+    background-size:28% 28%;
+    font-size:0;
+    position: fixed;
+    top:16.5px;
+    left: 1230px;
+}
+
+#btn-user:hover{
+     color: #FFFFFF}
 
 /*                                                                  GERAL                                                                  */
