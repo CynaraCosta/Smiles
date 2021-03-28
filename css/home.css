@@ -1,18 +1,109 @@
 
-/*                                                                  INDEX                                                                 */
 #imgbanner{
-    margin-top: 10rem;
+    margin-top: 0.15rem;
 }
 
+
 #bannerbom{
-    margin-left: 20px;
-    margin-top: 8rem;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 5rem;
 }
 
 #bannerbruno{
-    margin-left: 20px;
-    font-size: 1.8em;
-    margin-top: 8rem;
+    font-weight: 700;
+    margin-left: 80px;
+    font-size: 1.6em;
+    margin-top: 0.01rem;
 
 }
-/*                                                                  INDEX                                                                 */
+
+.destinos{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+#maisprocurados{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#vertodos{
+    margin-left: 40px;
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 19px;
+  }
+
+.card-body{
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 19px;
+}
+
+.img-card{
+    object-fit: cover;
+}
+.title-card{
+    font-weight: 700;
+}
+.star-card{
+    margin: 5px 0;
+}
+.cont-card{
+    margin: 7px 0;
+    font-size:14px;
+    text-align: center;
+}
+.lermais-card{
+    font-weight: 600;
+    font-size:12px;
+    margin: 5px 0;
+    color:#0066FF;
+}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cards{
+      margin:40px 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+  }
+
+  .galeria{
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+
+  main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
