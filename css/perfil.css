@@ -1,0 +1,68 @@
+#title-perfil{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5rem;
+}
+
+#line-perfil{
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 200px;
+    border: 0;
+	border-top: 1px solid #A1A1A1;
+}
+
+#img-info{
+    width: 200px;
+}
+
+#nome-info{
+    margin-top: 25px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+#id-info{
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.cpfemail-info{
+    margin-top: 13px;
+    margin-right: 975px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#email-info{
+    margin-left: 30px;
+}
+
+.principal-info{
+    margin-right: 1025px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    margin-right: 25px;
+    margin-left: 170px;
+}
+
+#edit-info{
+    margin-top: 25px;
+    width: 40px;
+    margin-left: 300px;
+}
+
+#milhas{
+    margin-top: 0.001px;
+    margin-left: 700px;
+    width: 700px;
+}
+
