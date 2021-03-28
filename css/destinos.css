@@ -84,6 +84,7 @@ main{
 }
 
 .history{
+    color:black;
     width: 60%;
 }
 
@@ -113,4 +114,8 @@ button{
 
 button:hover{
     box-shadow: 2px 2px 2px #615F5F;
+}
+
+#nomehistoria{
+    color:black;
 }
