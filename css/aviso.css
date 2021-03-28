@@ -1,0 +1,17 @@
+
+/*                                                                  AVISO                                                                 */
+
+#botaoavance button{
+    font-weight: bold;
+    top: 500px;
+    float:inline-start;
+    padding: 50px 8%;
+    width: 18%;
+    background-color: #F57921;
+    color:#FFFFFF;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*                                                                  AVISO                                                                 */

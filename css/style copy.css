@@ -1,0 +1,169 @@
+/*                                                                  GERAL                                                                  */
+body{
+   background-color: #F4F4F4;
+   background-size:500% 300%;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+
+}
+img{max-width: 100%;
+}
+ul{list-style: none;
+}
+a{text-decoration: none;
+}
+h2{font-size: 1.5em;
+   color:#010101;
+   font-weight: 900;
+}
+p{
+    font-size:1em;
+    color:#010101;
+    font-weight: bolder;
+}
+
+.cabecalho{
+    width: 100%;
+    float:left;
+    padding: 32px 5%;
+    background-color:#F57921;
+}
+
+.logo a{
+    width: 120px;
+    height: 120px;
+    float:left;
+    background: url(../img/smiles.png) no-repeat;
+    background-size:70% 50%;
+    font-size:0;
+    position: fixed;
+    top:5px;
+    left: 150px;
+
+}
+
+/*                                                                  GERAL                                                                  */
+
+/*******************************************************************************************************************************************/
+/*                                                                  INDEX                                                                 */
+.inicinho{
+    background-color: #F57921;
+}
+
+.logoinicial a{
+    width: 1200px; 
+    height: 1200px;
+    background-size:0.5% 0.5%;
+    background: url(../img/smiles1.png) no-repeat;
+    font-size:0;
+    position: fixed;
+    top:50px;
+    left: 50px;
+
+}
+
+/*                                                                  INDEX                                                                 */
+
+/*******************************************************************************************************************************************/
+/*                                                                  LOGIN                                                                  */
+.loginzinho{
+    background-color: #F4F4F4;
+    background-size:500% 300%;
+}
+
+.fotologin {
+    width: 600px;
+    height: 600px;
+    float:left;
+    background: url(../img/login.png) no-repeat;
+    background-size:60% ;
+
+}
+
+.principal {
+    width: 170%; 
+    float: inline-end; 
+    padding: 60px 8% 0% 50%;
+
+}
+
+
+#esqueci{
+    font-size: 0.8em;
+}
+
+.forms{
+    width: 100%;
+    float:left;
+    padding: 50px 8%;
+
+}
+
+.forms h3{
+    font-size: 1.8em;
+    color: #000000;
+}
+
+.forms form{
+    width: 100%;
+    float:left;
+    margin-top: 10px;
+}
+
+.forms form input{
+    width: 30%;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding: 10px 12px;
+    border:1px solid #000000;
+    border-radius: 5px;
+    color: #000000 ;
+    background-color: initial;
+    float:inline-start;
+}
+
+.forms button{
+    width: 18%;
+    background-color: #E0E0E0;
+    color:#A09C9C;
+    padding: 8px 10px;
+    border-radius: 5px;
+    float:inline-start;
+    cursor: pointer;
+}
+
+/*                                                                  LOGIN                                                                  */
+
+/*******************************************************************************************************************************************/
+
+/*                                                                  AVISO                                                                 */
+
+#botaoavance button{
+    font-weight: bold;
+    top: 500px;
+    float:inline-start;
+    padding: 50px 8%;
+    width: 18%;
+    background-color: #F57921;
+    color:#FFFFFF;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*                                                                  AVISO                                                                 */
+
+/*******************************************************************************************************************************************/
+
+
+
+

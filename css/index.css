@@ -1,0 +1,18 @@
+
+/*                                                                  INDEX                                                                 */
+.inicinho{
+    background-color: #F57921;
+}
+
+.logoinicial a{
+    width: 1500px; 
+    height: 1500px;
+    background: url(../img/smiles1.png) no-repeat;
+    font-size:0;
+    position: fixed;
+    top:50px;
+    left: 50px;
+
+}
+
+/*                                                                  INDEX                                                                 */
