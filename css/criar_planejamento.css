@@ -21,6 +21,66 @@ form input{
 }
 
 
-.milhas img{
+.img-milhas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.img-milhas img{
+    width: 70%;
+}
+
+#left{
     width: 40%;
+    margin-left: 80px
+}
+
+#right{
+    width: 60%;
+    
+}
+
+#right h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 43px
+}
+
+.down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.text-milhas{
+    margin-top: 43px;
+    
+}
+
+.text-milhas p{
+    padding-top: 12px;
+    padding-bottom: 40px
+}
+
+.text-milhas h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.vinicius{
+    margin-left: 130px;
+}
+
+#right img{
+    width: 100%;
+    padding-top: 63px;
+    padding-left: 60px
+    
 }
