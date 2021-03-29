@@ -1,6 +1,6 @@
 # Easy Smile
 
-Projeto em desenvolvimento para o Hackathon Smiles que ocorreu durante os dias 27.03.21 e 28.03.21, a solução se trata de uma plataforma nomeada como <br> Easy Smile </br>.
+Projeto em desenvolvimento para o Hackathon Smiles que ocorreu durante os dias 27.03.21 e 28.03.21, a solução se trata de uma plataforma nomeada como <strong> Easy Smile </strong>.
 
 <h3> Easy Smile </h3>
 
