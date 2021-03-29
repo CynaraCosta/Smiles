@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smiles</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tela_planejamento.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" type='text/css'>
+        <link rel="shortcut icon" href="etc/favicon.ico" />
+
+    </head>
+
+    <body>
+        <!--                 CABECALHO                 -->
+        <nav class="cabecalho">
+            
+            <h1 class="logo">
+                <a href="./home.html" title="Smiles">Smiles</a>
+            </h1>
+
+                <a id="conhecadestinos" href="./destinos.html">Conheça destinos</a>
+                <a id="planejamentos" href="./planejamentos.html"> Planejamentos</a>
+            
+            <div class="paraperfil">
+                <a href="./perfil.html"> <img id="btn-user" src="./img/user.svg" alt="user" >  </a>
+                <div class='bruno'>
+                    <a id="nomeperfil" href="./perfil.html"> Olá, Bruno! </a>
+                    <a id="nomesair" href="./index.html"><u>Sair da Smiles</u> </a>
+                </div>
+            </div>
+ 
+        </nav> 
+        <!--                 CABECALHO                 -->
+        <main>  
+            <div class="comeco">
+                <h5 id="titulinho-ativos">Planejamento</h5>
+                <h3 id="title-ativos"> Estadia de Verão - Barcelona</h3>
+                <hr id="line-ativos"/>
+            </div>
+
+            <div class="coisinhas">
+                <img id="imgplan1" src="./img/umplan.png" alt="planeja" >
+               <img id="divider" src="./img/divisor.svg" alt="planeja" > 
+
+                <div class="ldireito">
+                    <a href=# ><img id="imgplan2" src="./img/doisplan.png" alt="planeja" > </a>
+
+                    <div class="checks">
+                        
+                        <div class="precfinal">
+                            <h3 id="custo-check"> Custo total</h3>
+                            <h3 id="valor-check"> 27.500 Milhas</h3>
+                        </div>
+
+                        <div class="container">                   
+                            <div class="group">
+                              <input type="checkbox" id="xd" />
+                              <label for="xd">20.000 Milhas + 2x de R$ 200 Reais (Sem juros)</label>
+                            </div>
+                      
+                            <div class="group">
+                              <input type="checkbox" id="figma" />
+                              <label for="figma">15.000 Milhas + 3x de R$ 300 Reais (Sem juros)</label>
+                            </div>
+                      
+                            <div class="group">
+                              <input type="checkbox" id="sketch" />
+                              <label for="sketch">10.000 Milhas + 4x de R$ 400 Reais (Sem juros)</label>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div id="but-finalizar">
+                <form id='botao' method="get" action=#>
+                    <button type="submit">Finalizar planejamento</button>
+                </form>
+            </div>
+            
+    
+        
+        </main>
+    </body>
+</html>
